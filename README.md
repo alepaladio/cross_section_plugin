@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # cross_section_plugin
 Cross section plugin for QGIS, generates cross-sections from a line, then extracts elevations from TIFs, saves them and compare them.
 =======
@@ -31,4 +30,3 @@ Profile CSV columns are `distance_m,x,y,z_tif1[,z_tif2]`, with `#` comments iden
 The statistics CSV includes `center_x`, `center_y`, `working_crs`, source feature ID, part number, chainage, valid-sample counts, mean raster elevation (`mean_z_*`), mean water depth (`mean_depth_*`), and, where both rasters have data at the same positions, their paired mean differences and elevation RMSE. Use the recorded CRS when mapping the centre coordinates.
 
 By default, depth is measured below `DATUM = 0` from **negative** raster elevations; positions above the datum count as zero depth. Edit `DATUM` and `DEPTH_IS_NEGATIVE_Z` in `plot_cross_sections.py` to match your raster convention. The paired depth difference is TIF2 minus TIF1: a positive value means TIF2 is deeper at the shared valid samples.
->>>>>>> a39b94e (Initial commit: QGIS cross-section plugin)
