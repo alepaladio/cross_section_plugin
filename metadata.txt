@@ -1,0 +1,17 @@
+[general]
+name=Cross Section Generator
+qgisMinimumVersion=3.0
+description=Generates cross sections lines from a main line, extracts elevation from TIF and save stations. 
+version=1.0
+author=Ale Paladio
+email=alejandropaladio@gmail.com
+
+[about]
+
+
+icon=icon.png
+experimental=False
+deprecated=False
+
+[server]
+hasServerPlugin=False
